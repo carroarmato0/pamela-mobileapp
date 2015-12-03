@@ -15,4 +15,6 @@ $.ajax({
 	$.each(array, function(index, value) {
 		$('ul#presence_list').append("<li>" + value + "</li>");
 	});
+
+	$('#filter').fastLiveFilter('#presence_list');
 });
