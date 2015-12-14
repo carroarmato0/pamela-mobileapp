@@ -1,8 +1,8 @@
 {
   "name": "Inuits Presence",
   "short_name": "Igloo",
-  "start_url": "./",
-  "display": "minimal-ui",
+  "start_url": "index.html",
+  "display": "standalone",
   "icons": [{
     "src": "imgs/touch/homescreen48.png",
     "sizes": "48x48",
