@@ -158,6 +158,13 @@ input[type=search] {
   width: 100%;
 }
 
+.icon{
+ height:24px;
+ width:24px;
+ float:right;
+ visibility:hidden;
+}
+
 .townheader{
   display:none;
   border-radius: 10px;
