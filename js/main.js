@@ -31,7 +31,7 @@ $.ajax({
 
         if (str.toLowerCase().indexOf("brasschaat") >= 0) {
             if ($("#" + shortstr).length == 0) {
-                $('ul#presence_list_brasschaat').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></img></li>");
+                $('ul#presence_list_brasschaat').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></li>");
 
 
             }
@@ -42,7 +42,7 @@ $.ajax({
             }
         } else if (str.toLowerCase().indexOf("gent") >= 0) {
             if ($("#" + shortstr).length == 0) {
-                $('ul#presence_list_gent').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></img></li>");
+                $('ul#presence_list_gent').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></li>");
 
 
             }
@@ -53,7 +53,7 @@ $.ajax({
             }
         } else if (str.toLowerCase().indexOf("prague") >= 0) {
             if ($("#" + shortstr).length == 0) {
-                $('ul#presence_list_prague').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></img></li>");
+                $('ul#presence_list_prague').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></li>");
 
             }
             if (type == "laptop") {
@@ -64,7 +64,7 @@ $.ajax({
 
         } else if (str.toLowerCase().indexOf("kyiv") >= 0) {
             if ($("#" + shortstr).length == 0) {
-                $('ul#presence_list_kyiv').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></img></li>");
+                $('ul#presence_list_kyiv').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></li>");
 
             }
             if (type == "laptop") {
@@ -74,7 +74,7 @@ $.ajax({
             }
         } else if (str.toLowerCase().indexOf("rotterdam") >= 0) {
             if ($("#" + shortstr).length == 0) {
-                $('ul#presence_list_rotterdam').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></img></li>");
+                $('ul#presence_list_rotterdam').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></li>");
 
             }
             if (type == "laptop") {
@@ -85,7 +85,7 @@ $.ajax({
 
         } else if (str.toLowerCase().indexOf("brno") >= 0) {
             if ($("#" + shortstr).length == 0) {
-                $('ul#presence_list_brno').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></img></li>");
+                $('ul#presence_list_brno').append("<li id='" + shortstr + "'>" + shortstr + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></li>");
 
             }
             if (type == "laptop") {
@@ -97,7 +97,7 @@ $.ajax({
 
         } else {
             if ($("#" + shortstr).length == 0) {
-                $('ul#presence_list_other').append("<li id='" + shortstr + "'>" + shortstr + loc + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></img></li>");
+                $('ul#presence_list_other').append("<li id='" + shortstr + "'>" + shortstr + loc + "<img id='" + shortstr + "phone' class='icon phone' src='./imgs/phone.png' title='GSM'><img id='" + shortstr + "laptop' class='icon laptop' src='./imgs/laptop.png' title='Laptop'></li>");
 
             }
             if (type == "laptop") {
